@@ -3,6 +3,9 @@
 
 # You should only define the function, you should not call it later.
 
+def greet(greeting, place):
+    print(f"{greeting} {place}!")
+greet("Hello", "world")
 
 
 
